@@ -54,8 +54,8 @@ body {
 .logo {
   background: url("../images/idb.webp");
   background-position: center;
-  background-repeat:no-repeat;
-  
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 360px;
   transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
@@ -91,12 +91,15 @@ body {
 #nav li {
   font-size: 14px;
   padding: 0;
-
+  margin: 0;
 }
 
+#nav{
+  margin: 0;
+}
 
 .menuitem {
-  height: 80px;
+  height: 120px;
   text-align: center;
   padding: 0;
 }
@@ -123,6 +126,13 @@ body {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 300;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
+
+/*--------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+  background: rgba(224, 10, 10, 0.856);
+  height: 120px;
+}
