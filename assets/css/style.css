@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/idb.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 260px;
+    transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+}
+
+body {
+    font-size: 48px;
+  }
+  
+  div:nth-child(1) {
+    font-family: 'Crimson Pro', serif;
+  }
+  
+  div:nth-child(2) {
+    font-family: 'Literata’, serif;
+  }
+
+
